@@ -4,10 +4,11 @@
 
 <script lang="ts">
 	import Counter from '$lib/Counter.svelte';
+	import CreateActivity from '$lib/CreateActivity.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Gym</title>
 </svelte:head>
 
 <section>
@@ -27,6 +28,7 @@
 	</h2>
 
 	<Counter />
+	<CreateActivity />
 </section>
 
 <style>
